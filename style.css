@@ -1,0 +1,25 @@
+.d1 {
+    width :  120px;
+    height : 12opx;
+    background-color :red;
+
+    font-size: 24px;
+    font-weight: 500;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.d2 {
+    width :  120px;
+    height : 12opx;
+    background-color :green;
+
+    font-size: 24px;
+    font-weight: 500;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
