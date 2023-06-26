@@ -1,0 +1,28 @@
+.background {
+    position: absolute;
+    background-image: url("background.png");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+
+    overflow-x: hidden;
+}
+
+.body {
+    margin: 0px;
+}
+
+.block {
+    position: absolute;
+    height: 150px;
+    width: 90px;
+    background-image: url("flame.gif");
+    margin-top: 865px;
+    background-size: cover;
+}
+
+.boy{
+    position: absolute;
+    margin-top: 800px;
+    width: 250px;
+}
