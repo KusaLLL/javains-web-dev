@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+    <title>2D Game</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body class="body" onkeyup="keycheck(event);">
+
+    <div class="background" id="background">
+
+        <div class="Sbackground" id="Sbackground">
+
+        <div class="startScr" id="startScr">
+            
+            <audio id="backgroundMusic" loop>
+                <source src="calm1.mp3" type="audio/mpeg">
+              </audio>
+            <div class="Stext">Wild West Run</div>
+            <div class="Stext2">Press ENTER to Start</div>
+            <div><img src="img.gif"  class="png"></div>
+            <div class="credit"> Developed By Kusal Abeysinghe</div>
+            <img src="sound.png" class="toggleButton" id="toggleButton">Music</button>
+        </div>  
+        
+        <div class="score" id="score">0</div>
+        <div class="highScore" id="highScore" style="position: fixed;">High Score : 0</div>
+        <div class="HS">High Score :</div>
+
+        <img src="Idle (1).png" class="player" id="player"/>
+        
+        <div class="endScreen" id="endScreen">
+            <div class="text">Game Over</div>
+            <div class="text2">Your Score</div>
+            <div class="text2" id="text2">0</div>
+            <button class="button" onclick="reload();">Try Again!</button>
+            <div id="randomTip" class="randomTip">aaaa</div>
+        </div>
+
+        <div class="block"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
